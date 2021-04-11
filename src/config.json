@@ -1,0 +1,7 @@
+{
+    "base_url": "http://localhost:3001/api/",
+    "add_task_instruction_url": "instructions/addTask",
+    "get_task_instruction_url": "instructions/getTask",
+    "update_task_instruction_url": "instructions/updateTask",
+    "del_task_instruction_url": "instructions/delTask"
+}

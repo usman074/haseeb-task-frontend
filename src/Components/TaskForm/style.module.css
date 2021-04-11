@@ -1,0 +1,42 @@
+.contentWrapper {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+label {
+  width: 100%;
+  text-align: left;
+}
+
+.inputFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  max-width: 320px;
+  margin-bottom: 20px !important;
+}
+
+.flexStart {
+  display: flex;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editText, .delText {
+    cursor: pointer;
+    color: #007bff;
+}
+
+.delText {
+    color: #dc3545;
+    margin-left: 15px;
+}
